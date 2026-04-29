@@ -1,0 +1,8 @@
+dash==4.0.0
+plotly==6.5.0
+numpy==1.26.4
+pandas==2.2.3
+customtkinter==5.2.2
+CTkMessagebox==2.7
+blackscholes==0.2.0
+scipy==1.17.1
