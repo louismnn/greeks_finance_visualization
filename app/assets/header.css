@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-panel {
+    flex: 0 0 100%;
+    width: 75rem;
+    height: 41rem;
+    background-color: white;
+}
+.custom-tabs {
+    display: flex;
+    gap: 1rem; 
+}
+.custom-tab {
+    background-color: rgb(103, 210, 89);
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+    color:black;
+    border: 1px solid black !important;
+    border-bottom: 10px solid black !important;
+}
+.custom-tab--selected {
+    background-color: rgb(74, 154, 64);
+    color:black;
+    border-top: 4px solid black !important;
+}
+.custom-tab:hover {
+    background-color: rgb(96, 184, 77);
+    color:black;
+}
+.custom-graph {
+    flex: 1 1 0;
+    height: 29rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    justify-content: center;
+    border: 5px solid white !important;
+    border-radius: 3px;
+}
+.custom-dropdown {
+    flex: auto;
+    width: 56.6rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 5rem;
+    background-color: white;
+    border: 3px solid black;
+    color: black !important;
+}
+.custom-dropdown:hover {
+    border: 3px solid rgb(74, 154, 64);
+}
+.custom-dropdown:focus-within,
+.custom-dropdown:focus {
+    outline: 2px solid black;
+    border: 1px solid black;
+    color: rgb(74, 154, 64);
+}
+.custom-dropdown:active {
+    outline: 2px solid black;
+    border: 1px solid black;
+    color: rgb(74, 154, 64);
+}
+.span {
+    color: black;
+}
+.span:hover {
+    color: rgb(96, 184, 77);
+}
+.custom-button {
+    background-color: rgb(103, 210, 89);
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 2.6rem;
+    width: 10rem;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: -3.8rem;
+    margin-left: 63rem;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    pointer-events: auto;
+    position: relative;
+}
+.custom-button:hover {
+    background-color: rgb(96, 184, 77);
+    color: black;
+}
