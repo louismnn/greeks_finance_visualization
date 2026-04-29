@@ -91,7 +91,7 @@ The list of all the derivatives in the app are:
     'Asian Call'
     'Asian Put'
 
-For all of these derivatives there are two possibilities: long and short.
+For all of these derivatives there are two possibilities : **long** and **short**.
 
 ## Launch the Script
 
