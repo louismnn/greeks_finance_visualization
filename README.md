@@ -107,4 +107,4 @@ and
 python run.py
 ```
 
-Then, visit http://127.0.0.1:8050/ to see the app or click on the Flask serveur that is in your terminal.
+Then, visit http://127.0.0.1:8050/ to see the app or click on the Flask serveur that appears in your terminal.
