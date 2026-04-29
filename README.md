@@ -2,9 +2,9 @@
 
 ## Description
 
-This Python application is an interactive interface developed with Dash for visualizing financial Greeks (Delta, Gamma, Vega, Theta, Rho) of various derivative products. It allows users to add derivative positions (options, straddles, spreads, etc.) and visualize the evolution of their Greeks based on the underlying price or interest rate.
+This Python application is an interactive interface developed with Dash for visualizing financial Greeks (Delta, Gamma, Vega, Theta and Rho) of various derivative products. It allows users to add derivative positions (options, straddles, spreads, etc.) and visualize the evolution of their Greeks based on the underlying price or the interest rate.
 
-I decided to create this app to help finance students better visualize the Greeks and see the different impacts of products on a portfolio.
+I decided to create this app to help finance students to visualize better the Greeks and see the impacts of each product on an overall portfolio.
 
 ## Features
 
